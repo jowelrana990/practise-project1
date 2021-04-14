@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-transform: uppercase;
+}
+/* header section */
+
+.header_section{
+    background-image: url('../images/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.header_content{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+.header_content h1{
+    font-size: 49px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.header_content h1::after{
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    background-color: #fff;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.header_content p{
+    font-size: 28px;
+}
+
+/* working section */
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.working_content{
+    display: flex;
+    align-items: center;
+}
+.content{
+    width: 50%;
+}
+.working_text{
+    padding: 30px;
+    color: #41484b;
+}
+.working_text h1{
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+.working_text p{
+    font-size: 25px;
+    text-align: justify;
+}
+.working_image img{
+    width: 100%;
+}
+.working_image {
+    margin-bottom: -4px;
+}
+
+/* portfolio section */
+.portfolio-header{
+    padding: 40px 0;
+}
+.portfolio-header h1{
+    font-size: 40px;
+    text-align: center;
+    color:#41484b ;
+}
+
+.portfolio-row{
+    display: flex;
+}
+.portfolio-row .image-container{
+    width: 33.33%;
+}
+.portfolio-row .image-container img{
+    width: 100%;
+    padding: 10px 15px;
+}
+
+/* passages section */
+
+.passages{
+    background-color: #42484c;
+    margin-top: 50px;
+}
+.passages-content{
+    color: white;
+    text-align: center;
+    padding: 65px 60px;
+}
+.passages-content h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.passages-content p{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.passages-content h3{
+    font-size: 25px;
+}
+
+/* footer section */
+.footer{
+    padding: 35px 0;
+}
+.socal-link{
+    text-align: center;
+}
+.socal-link a{
+    font-size: 30px;
+    background-color: #42484C;
+    color: white;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.copyright-text{
+    text-align: center;
+    font-size: 25px;
+    color: #41484b;
+    padding: 20px 0;
+}
+.copyright-text a{
+    text-decoration: none;
+    color:#337ab7;
+}
